@@ -1,17 +1,21 @@
 {
-	"name": "burnbright/silverstripe-syntaxhighlight",
-	"description": "Mashup of tiny mce syntax-highlighted code entry, and front-end syntax highlighting via javascript syntaxhighlighter library, for SilverStripe CMS.",
-	"type": "silverstripe-module",
-	"keywords": ["silverstripe", "syntax","highlight","code","cms","content"],
-	"license" : "BSD2",
-	"authors": [
-	{
-		"name": "Jeremy Shipman",
-		"email": "jeremy@burnbright.net"
-	}
-	],
-	"require":
-	{
-		"silverstripe/framework": "3.*"
-	}
+    "name": "nprdm/silverstripe-syntaxhighlight",
+    "description": "Mashup of tiny mce syntax-highlighted code entry, and front-end syntax highlighting via javascript syntaxhighlighter library, for SilverStripe CMS.",
+    "type": "silverstripe-module",
+    "keywords": ["silverstripe", "syntax","highlight","code","cms","content"],
+    "license" : "BSD2",
+    "authors": [
+        {
+            "name": "Jeremy Shipman",
+            "email": "jeremy@burnbright.net"
+        },
+        {
+          "name": "Nara Kasbergen",
+          "email": "BKasbergen@npr.org"
+        }
+    ],
+    "require":
+    {
+        "silverstripe/framework": "3.*"
+    }
 }
