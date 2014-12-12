@@ -1,0 +1,32 @@
+{
+  "name": "silverstripe-syntaxhighlight",
+  "description": "Mashup of tiny mce syntax-highlighted code entry, and front-end syntax highlighting via javascript syntaxhighlighter library, for SilverStripe CMS.",
+  "keywords": [
+    "silverstripe",
+    "syntax",
+    "highlight",
+    "code",
+    "cms",
+    "content"
+  ],
+  "license": "BSD2",
+  "authors": [
+    {
+      "name": "Jeremy Shipman",
+      "email": "jeremy@burnbright.net"
+    },
+    {
+      "name": "Nara Kasbergen",
+      "email": "BKasbergen@npr.org"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nprdm/silverstripe-syntaxhighlight.git"
+  },
+  "dependencies": {
+    "SyntaxHighlighter": "~3.0.83",
+    "syntaxhl": "git://github.com/RichGuk/syntaxhl.git"
+  },
+  "private": true
+}
