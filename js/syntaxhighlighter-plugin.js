@@ -36,7 +36,8 @@
             'scala                  @shBrushScala.js',
             'sql                    @shBrushSql.js',
             'vb vbnet               @shBrushVb.js',
-            'xml xhtml xslt html    @shBrushXml.js'
+            'xml xhtml xslt html    @shBrushXml.js',
+            'yaml yml               @shBrushYaml.js'
         ));
         SyntaxHighlighter.all();
 
