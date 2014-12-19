@@ -78,13 +78,10 @@ var sh = {
 		
 		strings : {
 			expandSource : 'expand source',
-			help : '?',
+			help : '',
 			alert: 'SyntaxHighlighter\n\n',
 			noBrush : 'Can\'t find brush for: ',
 			brushNotHtmlScript : 'Brush wasn\'t configured for html-script option: ',
-			
-			// this is populated by the build script
-			aboutDialog : '@ABOUT@'
 		}
 	},
 	
@@ -194,7 +191,7 @@ var sh = {
 		/** Collection of toolbar items. */
 		items : {
 			// Ordered lis of items in the toolbar. Can't expect `for (var n in items)` to be consistent.
-			list: ['expandSource', 'help'],
+			list: ['expandSource'],
 
 			expandSource: {
 				getHtml: function(highlighter)
@@ -210,20 +207,6 @@ var sh = {
 				{
 					var div = getHighlighterDivById(highlighter.id);
 					removeClass(div, 'collapsed');
-				}
-			},
-
-			/** Command to display the about dialog window. */
-			help: {
-				execute: function(highlighter)
-				{	
-					var wnd = popup('', '_blank', 500, 250, 'scrollbars=0'),
-						doc = wnd.document
-						;
-					
-					doc.write(sh.config.strings.aboutDialog);
-					doc.close();
-					wnd.focus();
 				}
 			}
 		}
